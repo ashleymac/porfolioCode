@@ -1,0 +1,986 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.clear{
+    clear:both; 
+}
+ 
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'knockouthtf26-juniorflyweight'sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato' sans-serif;
+    font-size: 100%;
+}
+
+nav{
+    display:none;
+}
+
+.toggle-menu {
+  position: fixed;
+  top: 80px;
+  right: 18px;
+  transition: margin-right .3s;
+  z-index: 9999!important;
+}
+
+.toggle-menu span {
+  display: block;
+  width: 24px;
+  height: 4px;
+  border-radius: 1px;
+  margin: 0 0 4px 0;
+  background: #7FACA4;
+  cursor:pointer;
+
+}
+
+.cbp-spmenu{
+  display:initial;
+}
+
+/* ===================  HOMEPAGE   ==================== */
+
+#opening{
+  width:100%;   
+  height:90%;
+  background:#333;
+  padding-top:1px;
+  position:relative;
+}
+
+#opening h1{ 
+  font-family:'Montserrat';
+  font-size:1.25em; 
+
+  position:relative;
+  top:40%;
+  width:55%;
+  margin-left:auto;
+  margin-right:auto;
+
+  color: white;
+  text-align: center;
+  letter-spacing: 0.145em;
+}
+
+#opening h2{ 
+  font-family:'Lato';
+  font-size:1em; 
+  font-weight:100;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.145em;
+
+  position:relative;
+  top:40%;
+}
+
+.colorchange{
+  color:#7FACA4;
+}
+
+/* ================================= ABOUT ME ============================== */
+
+
+#aboutME{
+  width:100%;
+  height:auto;
+}
+
+#aboutME p{
+  font-family: 'Lato';
+  font-weight:500;
+  font-size:0.89em;
+  width:70%;
+  letter-spacing: 2px;
+  line-height:24px;
+
+  padding-bottom:10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#aboutME figure{
+  width:70%;
+  margin-top:18%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#aboutME img{
+  width:100%;
+  padding-bottom:20%;
+}
+
+#aboutME h3{
+  background-color:#7FACA4;
+  color:white;
+  text-align:center;
+  width:50%;
+  padding:2%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:15%;
+
+  font-family:'Lato';
+  font-weight:700;
+  font-size:0.9em;
+  letter-spacing:2px;
+}
+
+#aboutME h3 a:hover{
+  color:#888;
+}
+
+/* ================================= MY WORK ============================== */
+
+
+#myWork{
+  margin-bottom:12%;
+}
+
+#myWork h1{
+  font-family:'Lato';
+  width:56%;
+  font-weight:300;
+  font-size: 1.25em;
+  letter-spacing: 4px;
+
+  padding-top:22%;
+  padding-bottom:10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myWork ul{
+  width:80%;
+  margin-right:auto;
+  margin-left:auto;
+  list-style:none;
+}
+
+#myWork li{
+  width: 80%;
+  padding: 2% 0;
+}
+
+#myWork li img{
+  width: 100%;
+}
+
+#myWork h2{
+  border: 4px solid #7FACA4;
+  color:#333;
+  text-align:center;
+  width:50%;
+  padding:2%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:18%;
+  margin-bottom:20%;
+
+  font-family:'Lato';
+  font-weight:300;
+  font-size:0.75em;
+  letter-spacing:2px;
+}
+
+
+
+/* ================================= PORTFOLIO PAGES ============================== */
+
+
+
+#portfolioImages h1{
+  font-family:'Lato';
+  width:56%;
+  font-weight:300;
+  font-size: 1.25em;
+  letter-spacing: 4px;
+
+  padding-top:22%;
+  padding-bottom:10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolioImages{
+  width:73%;
+  height:100%;
+  margin-top:15%;
+  text-align:center;
+  margin-bottom:10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+ 
+.item {
+  width: 100%;
+  height: 28%;
+  margin: 0 2% 2% 0;
+  float: left;
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+  overflow:hidden;
+  position:relative;
+}
+
+.hover-grid img {
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+  border:0;
+  position:absolute;
+  top:0;
+  left:0;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:auto;
+}
+
+.hover-grid-item .caption {
+  background-color: #111;
+  width:100%;
+  height:auto;
+  padding: 15%;
+  position:absolute;
+  left:0;
+  color: #fff;
+  display:none;
+  line-height:1.1;
+  opacity:.8;
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+}
+
+.hover-grid-item .caption h2 {
+  font-family:'Lato';
+  font-weight:300;
+  font-size: 1em;
+  letter-spacing:2px;
+  color: #fff;
+  width:70%;
+}
+
+.hover-grid-item .caption p{
+  font-family:'Lato';
+  font-weight:400;
+  font-size: 0.75em;
+  letter-spacing:2px;
+  color: #fff;
+  width:70%;
+}
+
+.portfolioText{
+  padding-top:1px;
+}
+
+.portfolioText h1{
+  margin-top:40%;
+  font-family:'Lato';
+  font-weight:100;
+  font-size:2em;
+  letter-spacing: 4px;
+  margin-left:12%;
+}
+
+.portfolioText p{
+  font-family:'Lato';
+  font-weight:300;
+  font-size:0.75em;
+  letter-spacing: 2px;
+  margin-left:12%;
+  margin-bottom:5%;
+  width:75%;
+}
+ 
+
+
+/* ================================= FOOTER ============================== */
+
+
+footer{
+  width:100%;
+  padding-bottom:1px;
+  background-color:#2f2f2f;
+}
+
+footer ul{
+  padding:5% 12%;
+}
+
+footer ul li{
+  list-style:none;
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  color: #888;
+  font-size: 0.65em;
+  letter-spacing: 1px;
+  padding: 5% 0;
+}
+
+footer ul li a{
+  list-style:none;
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  color: white;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  padding: 1% 0;
+}
+
+
+
+
+/* ==========================================================================
+   -------------------------   Media Queries  -------------------------------
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+  ----------------------------- TABLET --------------------------------------               
+   ========================================================================== */
+
+
+@media only screen and (min-width: 768px) {
+
+nav{
+  display:none;
+}
+
+.cbp-spmenu{
+  display:initial;
+}
+
+#opening h1{ 
+  font-size:2.25em; 
+}
+
+#opening h2{ 
+  font-size:1.5em; 
+  font-weight:300;
+  text-align: center;
+}
+
+#aboutME p{
+  width:40%;
+  font-size:1em;
+}
+
+#aboutME figure{
+  width:40%;
+}
+
+#aboutME h3{
+  width:30%;
+}
+
+#myWork{
+  margin-bottom:12%;
+}
+
+#myWork h1{
+  width:33%;
+  font-size: 1.5em;
+  padding-top:10%;
+}
+
+#myWork ul{
+  width:90%;
+  margin-right:auto;
+  margin-left:auto;
+  list-style:none;
+
+}
+
+#myWork li{
+  width:32%;
+  display:inline-block;
+}
+
+#myWork h2{
+  width:30%;
+  margin-top:10%;
+  margin-bottom:20%;
+  font-weight:300;
+  font-size:1em;
+}
+
+#portfolioImages{
+  width:90%;
+  height:100%;
+  margin-top:5%;
+  text-align:center;
+  margin-bottom:10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.item {
+  width: 47%;
+  height: 30%;
+  margin: 0 2% 2% 0;
+  float: left;
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+  overflow:hidden;
+  position:relative;
+}
+
+.hover-grid img {
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+  border:0;
+  position:absolute;
+  top:0;
+  left:0;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:auto;
+}
+
+.hover-grid-item .caption {
+  background-color: #111;
+  width:100%;
+  height:100%;
+  padding: 15%;
+  position:absolute;
+  left:0;
+  color: #fff;
+  display:none;
+  line-height:1.1;
+  opacity:.8;
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+}
+
+.hover-grid-item .caption h2 {
+  font-family:'Lato';
+  font-weight:300;
+  font-size: 1.25em;
+  letter-spacing:2px;
+  color: #fff;
+  width:70%;
+}
+
+.hover-grid-item .caption p{
+  font-family:'Lato';
+  font-weight:400;
+  font-size: 1em;
+  letter-spacing:2px;
+  color: #fff;
+  width:70%;
+}
+
+footer ul{
+  padding:5% 12%;
+}
+
+footer ul li{
+  font-size: 0.75em;
+  padding: 2% 0;
+}
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+#portfolioImages{
+  width:90%;
+  height:100%;
+  margin-top:5%;
+  text-align:center;
+  margin-bottom:10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.item {
+  width: 47%;
+  height: 34%;
+  margin: 0 2% 2% 0;
+  float: left;
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+  overflow:hidden;
+  position:relative;
+}
+
+}
+
+
+/* ==========================================================================
+  ----------------------------- DESKTOP 1280 --------------------------------     
+   ========================================================================== */
+
+
+@media only screen and (min-width: 1280px) {
+
+nav{
+    display:initial;
+    width:100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    background-color: white;
+    height: 18%;
+}
+
+nav ul{
+    width:40%;
+    float:right;
+    margin-right:6%;
+    margin-top:3%;
+}
+
+nav ul li{      
+    font-family: 'Lato' sans-serif;
+    font-size:0.75em;
+    text-transform:uppercase;
+    font-weight:300;
+    letter-spacing:3px;
+    display:inline-block;
+    padding:0 6%;
+}
+
+nav ul li a:hover{      
+    color:#7FACA4;
+}
+
+.toggle-menu{
+  display:none;
+}
+
+#opening h1{ 
+  font-size:2em; 
+}
+
+#opening h2{ 
+  font-size:1.25em; 
+}
+
+#aboutME figure{
+  margin-top:10%;
+  width:40%;
+  margin-bottom:0;
+}
+
+#aboutME p{
+  width:40%;
+  padding-bottom:5%;
+  font-size:0.9em;
+}
+
+#aboutME h3{
+  width:20%;
+  margin-bottom:10%;
+}
+
+#myWork{
+  margin-bottom:12%;
+}
+
+#myWork h1{
+  width: 25%;
+  font-size: 2em;
+  padding-top:0;
+  padding-bottom:4%;
+}
+
+#myWork ul{
+  width:85%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+#myWork li{
+  display: inline-block;
+  width: 30%;
+  padding: 1%;  
+  margin-right:0;
+  margin-left:0;
+}
+
+#myWork li img{
+width: 100%;
+}
+
+#myWork h2{
+  width:20%;
+  margin-top: 5%;
+  margin-bottom:10%;
+  font-size:1em;
+}
+
+.portfolioText h1{
+  margin-top:10%;
+  font-family:'Lato';
+  font-weight:100;
+  font-size:2em;
+  letter-spacing: 4px;
+  margin-left:12%;
+}
+
+.portfolioText p{
+  font-family:'Lato';
+  font-weight:300;
+  font-size:1em;
+  letter-spacing: 2px;
+  margin-left:12%;
+  width:60%;
+}
+
+#portfolioImages h1{
+  font-family:'Lato';
+  width:56%;
+  font-weight:300;
+  font-size: 1.25em;
+  letter-spacing: 4px;
+
+  padding-top:0;
+  padding-bottom:5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#portfolioImages{
+  width:90%;
+  height:100%;
+  margin-top:15%;
+  text-align:center;
+  margin-bottom:10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+ 
+.item {
+  width: 30%;
+  height: 34%;
+  margin: 0 2% 2% 0;
+  float: left;
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+  overflow:hidden;
+  position:relative;
+}
+
+.hover-grid img {
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+  border:0;
+  position:absolute;
+  top:0;
+  left:0;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:auto;
+}
+
+.hover-grid-item .caption {
+  background-color: #111;
+  width:100%;
+  height:100%;
+  padding: 15%;
+  position:absolute;
+  left:0;
+  color: #fff;
+  display:none;
+  line-height:1.1;
+  opacity:.8;
+  /*-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+}
+
+.hover-grid-item .caption h2 {
+  font-family:'Lato';
+  font-weight:300;
+  font-size: 1.5em;
+  letter-spacing:2px;
+  color: #fff;
+  width:70%;
+}
+
+.hover-grid-item .caption p{
+  font-family:'Lato';
+  font-weight:400;
+  font-size: 0.85em;
+  letter-spacing:2px;
+  color: #fff;
+  width:70%;
+}
+
+
+footer{
+  padding-bottom:1px;
+}
+
+footer ul{
+  padding:5% 12%;
+}
+
+footer ul li{
+  list-style:none;
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  color: #888;
+  font-size: 0.65em;
+  letter-spacing: 1px;
+  padding: 1% 0;
+}
+
+footer ul li a{
+  list-style:none;
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  color: white;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  padding: 1% 0;
+}
+
+
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+      : block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+      : none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+      : table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ======= LINKS ========= */ 
+
+a:link{
+  color:#333;
+  text-decoration: none;
+  font-weight:400;
+} 
+
+a:visited{
+  color:#333;
+  font-weight:400;
+}
+a:hover{
+  font-weight:400;
+}
+
+a:active{
+  font-weight:400;
+} 
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+          : table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

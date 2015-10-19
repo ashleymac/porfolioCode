@@ -1,3 +1,3 @@
-# Ashley MacDonald<br>
+# Code Sample- Portfolio Website<br>
 <br>
-Code Sample- Portfolio Website
+<i>Ashley MacDonald</i>
